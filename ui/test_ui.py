@@ -187,3 +187,8 @@ def test_create_department(logged_in_page: Page):
     except Exception:
         страница.screenshot(path="debug_test5_fail.png")
         pytest.fail(f"Отдел '{имя_отдела}' не появился в списке!")
+
+
+
+
+ #коммит для Reguest
