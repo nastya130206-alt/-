@@ -16,3 +16,5 @@ def auth_token(api_session):
         pytest.fail("В config.py не указан AUTH_TOKEN. Пожалуйста, вставьте туда ваш ключ.")
     return AUTH_TOKEN
 
+
+ #коммит для Reguest

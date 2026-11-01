@@ -57,3 +57,7 @@ def logged_in_page():
         yield page
         
         browser.close()
+
+
+
+ #коммит для Reguest
