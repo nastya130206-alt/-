@@ -156,3 +156,6 @@ def test_5_get_project_not_found(api_session, auth_token):
     assert "Проект не найден" in str(data.get("message", "")), f"Текст ошибки не совпадает: {data.get('message')}"
     
     print(f"✅ Тест 5 пройден. Корректная обработка несуществующего ID.")
+
+
+    #коммит для Reguest
